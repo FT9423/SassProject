@@ -1,0 +1,53 @@
+/* SASS ShortCuts */
+@mixin padding {
+    padding: 10px 10px 10px 10px;
+}
+
+$color-primary: #28536b;
+$color-secondary: #00a6fb;
+
+/* Text */
+body {
+    background-color: #ffadad;
+    color: #f1faee;
+    font-size: 35px;
+}
+h1 {
+    color: #21295c;
+    text-align: center; 
+    font-size: 90px;
+}
+
+/* Buttons */
+.btn{
+    @include padding;
+
+    &.primary {
+        background-color: $color-primary;
+        color:#ecebf3;
+        margin-top: 90px;
+        margin-left: 1700px;
+        font-size: 12px;
+    }
+    &.secondary {
+        background-color: $color-secondary;
+        color: #edf2f4;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
+
+/* Input Field */
+.inp {
+    background-color: #979dac;
+    color: #1b3b6f;
+    font-size: 13px;
+    text-align: left;
+    @include padding;
+}
+input:focus {
+    background-color: #c6def1;
+}
+::placeholder {
+    color: #feeafa;
+}

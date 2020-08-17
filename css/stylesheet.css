@@ -1,0 +1,40 @@
+/* SASS ShortCuts */
+/* Text */
+body {
+  background-color: #ffadad;
+  color: #f1faee;
+  font-size: 35px; }
+
+h1 {
+  color: #21295c;
+  text-align: center;
+  font-size: 90px; }
+
+/* Buttons */
+.btn {
+  padding: 10px 10px 10px 10px; }
+  .btn.primary {
+    background-color: #28536b;
+    color: #ecebf3;
+    margin-top: 90px;
+    margin-left: 1700px;
+    font-size: 12px; }
+  .btn.secondary {
+    background-color: #00a6fb;
+    color: #edf2f4;
+    margin-left: 10px;
+    font-size: 12px; }
+
+/* Input Field */
+.inp {
+  background-color: #979dac;
+  color: #1b3b6f;
+  font-size: 13px;
+  text-align: left;
+  padding: 10px 10px 10px 10px; }
+
+input:focus {
+  background-color: #c6def1; }
+
+::placeholder {
+  color: #feeafa; }
